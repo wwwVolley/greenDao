@@ -1,6 +1,8 @@
 **Looking for object persistence faster than SQLite? Check out our new mobile database [ObjectBox](http://objectbox.io/) ([GitHub](https://github.com/greenrobot/ObjectBox)).**  
 
 greenDAO
+
+copy from https://github.com/greenrobot/greenDAO
 ========
 greenDAO is a light & fast ORM for Android that maps objects to SQLite databases. Being highly optimized for Android, greenDAO offers great performance and consumes minimal memory.
 
@@ -43,8 +45,13 @@ buildscript {
 apply plugin: 'com.android.application'
 apply plugin: 'org.greenrobot.greendao' // apply plugin
  
+ 
 dependencies {
-    implementation 'org.greenrobot:greendao:3.2.2' // add library
+	implementation 'com.github.wwwVolley:greenDao:Tag'// add library
+}
+
+dependencies {
+    implementation 'org.greenrobot:greendao:3.2.2' 
 }
 ```
 
